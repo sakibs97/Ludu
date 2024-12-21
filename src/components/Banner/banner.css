@@ -1,0 +1,133 @@
+.part{
+    width: 750px;
+    height: 300px;
+    background-color: bisque;
+}
+/* ~~Red Box Start~~ */
+.red_box{
+    width: 300px;
+    height: 300px;
+    background-color: #f12323;
+    float: left;    
+}
+.red_box_middle{
+    width: 200px;
+    height: 200px;
+    background-color: #ffff;
+    margin: 50px auto;
+}
+.red_logo{
+    width: 60px;
+    height: 60px;
+    background-color: #f12323;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+/* ~~ Part One Middle Box Start ~~ */
+.row{
+    width: 50px;
+    height: 300px;
+    float: left;
+}
+.col_r1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+/* ~~ Green Box Start ~~ */
+.green_box{
+    width: 300px;
+    height: 300px;
+    background-color: #15792a;
+    float: right; 
+}
+.green_box_middle{
+    width: 200px;
+    height: 200px;
+    background-color: #ffff;
+    margin: 50px auto;
+}
+.green_logo{
+    width: 60px;
+    height: 60px;
+    background-color: #15792a;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+/* ~~Blue Box Start~~ */
+.blue_box{
+    width: 300px;
+    height: 300px;
+    background-color: #071ef3;
+    float: left;    
+}
+.blue_box_middle{
+    width: 200px;
+    height: 200px;
+    background-color: #ffff;
+    margin: 50px auto;
+}
+.blue_logo{
+    width: 60px;
+    height: 60px;
+    background-color: #071ef3;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+/* ~~ Yellow Box Start ~~ */
+.yellow_box{
+    width: 300px;
+    height: 300px;
+    background-color: #f5dd05;
+    float: right; 
+}
+.yellow_box_middle{
+    width: 200px;
+    height: 200px;
+    background-color: #ffff;
+    margin: 50px auto;
+}
+.yellow_logo{
+    width: 60px;
+    height: 60px;
+    background-color: #f5dd05;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+/* ~~ Middle Box Start ~~ */
+.middle{
+    width: 750px;
+    height: 150px;
+    background-color: aqua;
+}
+.middle_part{
+    width: 300px;
+    height: 150px; 
+    float: left;
+    background-color: bisque;
+}
+.mid_row{
+    width: 300px;
+    height: 50px;  
+    float: left;
+}
+.middle_row{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    float: left;
+}
+.center_part{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+
+
