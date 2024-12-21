@@ -136,42 +136,25 @@
     float: left;
     position: relative;
 }
-.red_r{
-    position: absolute;
-    height: 150px;
-    width: 150px;
+.color{
+    width: 0;
+    height: 0;
+    border: 75px solid;
+    border-color: #f12323 #15792a #f5dd05 #071ef3;
+}
+.col_red{
     background-color: #f12323;
-    rotate: 45deg;
-    left: -70%;
-    z-index: -1;
 }
-.green_g{
-    position: absolute;
-    height: 150px;
-    width: 150px;
+.col_green{
     background-color: #15792a;
-    rotate: 45deg;
-    top: -70%;
-    z-index: -1;
 }
-.yellow_y{
-    position: absolute;
-    height: 150px;
-    width: 150px;
+.col_yellow{
     background-color: #f5dd05;
-    rotate: 45deg;
-    right: -70%;
-    z-index: -1;
 }
-.blue_b{
-    position: absolute;
-    height: 150px;
-    width: 150px;
+.col_blue{
     background-color: #071ef3;
-    rotate: 45deg;
-    bottom: -70%;
-    z-index: -1;
 }
+
 
 
 
