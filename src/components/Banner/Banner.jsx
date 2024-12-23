@@ -1,12 +1,27 @@
 import './banner.css'
-import arrow from '../../assets/arrow.png'
-import { IoMdStar } from "react-icons/io";
+import { TiArrowDownThick, TiArrowRightThick, TiArrowUpThick, TiArrowLeftThick } from "react-icons/ti";
+import { RiStarSmileFill } from "react-icons/ri";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Banner = () => {
     return (
         <section className="my-[50px]">
             <div className="container">
-                <div className="mx-auto h-[760px] w-[760px] border-[5px] border-[#f83949]">
+                <div className="main_size">
+                    <div className="all_button">
+                        <div className="button_r">
+                            <FaLocationDot className='icon_size' />
+                            <button className='btn_text'>
+                                Hello
+                            </button>
+                        </div>
+                        <div className="button_g">
+                            <button className='btn_text'>
+                                Hello
+                            </button>
+                            <FaLocationDot className='icon_size' />
+                        </div>
+                    </div>
                     <div className="h-[750px] w-[750px]">
                         {/*~~~~~ Top Part Start ~~~~~*/}
                         <div className="part">
@@ -23,17 +38,16 @@ const Banner = () => {
                                     <div className="col_r1"></div>
                                     <div className="col_r1"></div>
                                     <div className="col_r1">
-                                        <IoMdStar className='w-8 h-8 mx-auto my-[6px] text-[#15792a]' />
+                                        <RiStarSmileFill className='icon_size icon_color_g' />
                                     </div>
                                     <div className="col_r1"></div>
                                     <div className="col_r1"></div>
                                     <div className="col_r1"></div>
-                                    <div className="absolute top-[20px] left-[20px]">
-                                        <img src={arrow} alt="" className='w-[200px] h-[100px] scale-125' />
-                                    </div>
                                 </div>
                                 <div className="row">
-                                    <div className="col_r1"></div>
+                                    <div className="col_r1">
+                                        <TiArrowDownThick className='icon_size icon_color_g' />
+                                    </div>
                                     <div className="col_r1 col_green"></div>
                                     <div className="col_r1 col_green"></div>
                                     <div className="col_r1 col_green"></div>
@@ -43,7 +57,7 @@ const Banner = () => {
                                 <div className="row">
                                     <div className="col_r1"></div>
                                     <div className="col_r1 col_green">
-                                        <IoMdStar className='w-8 h-8 mx-auto my-[6px] text-yellow-50' />
+                                        <RiStarSmileFill className='icon_size' />
                                     </div>
                                     <div className="col_r1"></div>
                                     <div className="col_r1"></div>
@@ -67,7 +81,7 @@ const Banner = () => {
                                 <div className="mid_row">
                                     <div className="middle_row"></div>
                                     <div className="middle_row col_red">
-                                        <IoMdStar className='w-8 h-8 mx-auto my-[6px] text-yellow-50' />
+                                        <RiStarSmileFill className='icon_size' />
                                     </div>
                                     <div className="middle_row"></div>
                                     <div className="middle_row"></div>
@@ -75,7 +89,9 @@ const Banner = () => {
                                     <div className="middle_row"></div>
                                 </div>
                                 <div className="mid_row">
-                                    <div className="middle_row"></div>
+                                    <div className="middle_row">
+                                        <TiArrowRightThick className='icon_size icon_color_r' />
+                                    </div>
                                     <div className="middle_row col_red"></div>
                                     <div className="middle_row col_red"></div>
                                     <div className="middle_row col_red"></div>
@@ -86,7 +102,7 @@ const Banner = () => {
                                     <div className="middle_row"></div>
                                     <div className="middle_row"></div>
                                     <div className="middle_row">
-                                        <IoMdStar className='w-8 h-8 mx-auto my-[6px] text-[#f12323]' />
+                                        <RiStarSmileFill className='icon_size icon_color_r' />
                                     </div>
                                     <div className="middle_row"></div>
                                     <div className="middle_row"></div>
@@ -103,7 +119,7 @@ const Banner = () => {
                                     <div className="middle_row"></div>
                                     <div className="middle_row"></div>
                                     <div className="middle_row">
-                                        <IoMdStar className='w-8 h-8 mx-auto my-[6px] text-[#f8fc31]' />
+                                        <RiStarSmileFill className='icon_size icon_color_y' />
                                     </div>
                                     <div className="middle_row"></div>
                                     <div className="middle_row"></div>
@@ -114,7 +130,9 @@ const Banner = () => {
                                     <div className="middle_row col_yellow"></div>
                                     <div className="middle_row col_yellow"></div>
                                     <div className="middle_row col_yellow"></div>
-                                    <div className="middle_row"></div>
+                                    <div className="middle_row">
+                                        <TiArrowLeftThick className='icon_size icon_color_y' />
+                                    </div>
                                 </div>
                                 <div className="mid_row">
                                     <div className="middle_row"></div>
@@ -122,9 +140,11 @@ const Banner = () => {
                                     <div className="middle_row"></div>
                                     <div className="middle_row"></div>
                                     <div className="middle_row col_yellow">
-                                        <IoMdStar className='w-8 h-8 mx-auto my-[6px] text-yellow-50' />
+                                        <RiStarSmileFill className='icon_size' />
                                     </div>
-                                    <div className="middle_row"></div>
+                                    <div className="middle_row">
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +166,7 @@ const Banner = () => {
                                     <div className="col_r1"></div>
                                     <div className="col_r1"></div>
                                     <div className="col_r1 col_blue">
-                                        <IoMdStar className='w-8 h-8 mx-auto my-[6px] text-yellow-50' />
+                                        <RiStarSmileFill className='icon_size' />
                                     </div>
                                     <div className="col_r1"></div>
                                 </div>
@@ -156,14 +176,16 @@ const Banner = () => {
                                     <div className="col_r1 col_blue"></div>
                                     <div className="col_r1 col_blue"></div>
                                     <div className="col_r1 col_blue"></div>
-                                    <div className="col_r1"></div>
+                                    <div className="col_r1">
+                                        <TiArrowUpThick className='icon_size icon_color_b' />
+                                    </div>
                                 </div>
                                 <div className="row">
                                     <div className="col_r1"></div>
                                     <div className="col_r1"></div>
                                     <div className="col_r1"></div>
                                     <div className="col_r1">
-                                        <IoMdStar className='w-8 h-8 mx-auto my-[6px] text-[#071ef3]' />
+                                        <RiStarSmileFill className='icon_size icon_color_b' />
                                     </div>
                                     <div className="col_r1"></div>
                                     <div className="col_r1"></div>
@@ -179,6 +201,20 @@ const Banner = () => {
                             </div>
                         </div>
                         {/*~~~~~ Bottom Part End ~~~~~*/}
+                    </div>
+                    <div className="all_button">
+                        <div className="button_b">
+                            <FaLocationDot className='icon_size' />
+                            <button className='btn_text'>
+                                Hello
+                            </button>
+                        </div>
+                        <div className="button_y">
+                            <button className='btn_text'>
+                                Hello
+                            </button>
+                            <FaLocationDot className='icon_size' />
+                        </div>
                     </div>
                 </div>
             </div>
